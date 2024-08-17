@@ -13,8 +13,8 @@ _✨ 为轻雪机器人提供NoneBot支持 ✨_
 <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/LiteyukiStudio/nonebot-plugin-acgnshow.svg" alt="license">
 </a>
-<a href="https://pypi.python.org/pypi/nonebot-plugin-acgnshow">
-    <img src="https://img.shields.io/pypi/v/nonebot-plugin-acgnshow.svg" alt="pypi">
+<a href="https://pypi.python.org/pypi/liteyukibot-plugin-nonebot">
+    <img src="https://img.shields.io/pypi/v/liteyukibot-plugin-nonebot.svg" alt="pypi">
 </a>
 <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="python">
 
