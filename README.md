@@ -77,6 +77,13 @@ liteyuki:
 
 ## 🎉 使用
 
+### 仅运行此插件(开发测试多用)
+```yaml
+python main.py
+```
+
+### 装载到轻雪机器人运行(生产环境)
+
 默认装载`nonebot-adapter-onebot`适配器和`fastapi` `httpx` `websocket`驱动器，可根据需求进行配置
 
 安装其他NoneBot商店推荐使用轻雪的NoneBot插件`npm`
