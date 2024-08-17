@@ -1,4 +1,4 @@
-<div style="display: flex; justify-content: center; align-content: center">
+<div align="center">
   <img src="https://cdn.liteyuki.icu/static/img/liteyuki_icon_640.png" width="180" height="180" alt="NoneBotPluginLogo">
 
 </div>
