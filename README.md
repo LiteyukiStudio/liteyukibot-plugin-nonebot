@@ -64,7 +64,26 @@ _✨ 为轻雪机器人提供NoneBot支持 ✨_
 </details>
 </details>
 
-在轻雪配置文件中添加以下配置，使插件能够被加载
+
+
+## 🎉 使用
+
+### 仅运行此插件(开发测试)
+运行入口文件
+```bash
+python main.py
+```
+或运行
+```python
+from liteyuki.dev.plugin import run_plugins
+
+if __name__ == "__main__":
+    run_plugins("liteyukibot_plugin_nonebot")
+```
+
+### 装载到轻雪机器人运行(生产环境)
+
+在轻雪配置文件中添加以下配置，使轻雪知道该加载此插件
 
 ```yaml
 liteyuki.plugins: [ ..., "liteyukibot_plugin_nonebot" ]
@@ -75,16 +94,7 @@ liteyuki:
     - liteyukibot_plugin_nonebot
 ```
 
-## 🎉 使用
-
-### 仅运行此插件(开发测试多用)
-```yaml
-python main.py
-```
-
-### 装载到轻雪机器人运行(生产环境)
-
-默认装载`nonebot-adapter-onebot`适配器和`fastapi` `httpx` `websockets`驱动器，可根据需求进行配置
+默认装载`nonebot-adapter-onebot`适配器和`fastapi`，`httpx`及`websockets`几个常用驱动器，可根据需求进行配置
 
 安装其他NoneBot商店推荐使用轻雪的NoneBot插件`npm`
 
