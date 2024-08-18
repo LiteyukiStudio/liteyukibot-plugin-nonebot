@@ -1,14 +1,14 @@
 [project]
 name = "liteyukibot-plugin-nonebot"
-version = "0.1.1"
+version = "0.1.2"
 description = "Nonebot2 Support for LiteyukiBot"
 authors = [
     { name = "snowykami", email = "snowykami@outlook.com" },
 ]
 dependencies = [
     "pdm ~= 2.18.1",
-    "nonebot2>=2.3.2",
-    "liteyukibot>=6.3",
+    "nonebot2[fastapi,httpx,websockts]>=2.3.2",
+    "liteyukibot>=6.3.6",
     "nonebot-adapter-satori>=0.12.3",
     "nonebot-adapter-onebot>=2.4.4",
 ]
