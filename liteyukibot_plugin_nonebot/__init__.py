@@ -36,8 +36,11 @@ def nb_run(*args, **kwargs):
     adapter_manager.init(kwargs)
     adapter_manager.register()
 
+    base_plugin_dir = "liteyukibot_plugin_nonebot.nonebot_plugins."
+    nonebot_plugins = ["to_liteyuki"]
     try:
-        nonebot.load_plugin("nonebot-plugin-lnpm")  # 尝试加载轻雪NoneBot插件加载器（Nonebot插件）
+        for plugin in nonebot_plugins:
+            nonebot.load_plugin(base_plugin_dir + plugin)
     except Exception as e:
         pass
 
