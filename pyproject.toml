@@ -1,6 +1,6 @@
 [project]
 name = "liteyukibot-plugin-nonebot"
-version = "0.1.2"
+version = "0.1.3"
 description = "Nonebot2 Support for LiteyukiBot"
 authors = [
     { name = "snowykami", email = "snowykami@outlook.com" },
